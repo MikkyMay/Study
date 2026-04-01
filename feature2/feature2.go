@@ -1,13 +1,7 @@
 package feature2
 
-import ()
-"fmt"
-"study/feature1"
-"study/feature2"
-)
+import "fmt"
 
-func main() {
-	fmt.Println("Hello, World!")
-	feature1.Feature1()
-	feature2.Feature2()
+func Feature2() {
+	fmt.Println("I am Feature 2!")
 }
